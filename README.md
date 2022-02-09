@@ -1,4 +1,4 @@
-![Minumum SDK](https://img.shields.io/badge/Android%205.0(Lollipop)%20-dark-green.svg)
+![MinumumSDK](https://img.shields.io/badge/Android%205.0(Lollipop)%20-green.svg)
 ![License](https://img.shields.io/badge/License-GPL&ndash;3.0%20-purple.svg)
 
 # QuizAtshi
