@@ -10,11 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.QuizAtshi">
         <activity
+            android:name=".ResultActivity"
+            android:theme="@style/NoActionBarTheme"
+            android:exported="false" />
+        <activity
             android:name=".QuizQuestionsActivity"
-            android:exported="false">
-
-        </activity>
-
+            android:exported="false"></activity>
         <activity
             android:name=".MainActivity"
             android:exported="true"

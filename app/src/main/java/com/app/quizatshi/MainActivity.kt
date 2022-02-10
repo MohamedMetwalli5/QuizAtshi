@@ -9,6 +9,9 @@ import android.widget.Toast
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
+
+        window.decorView.systemUiVisibility = View.SYSTEM_UI_FLAG_FULLSCREEN
+
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
@@ -19,6 +22,7 @@ class MainActivity : AppCompatActivity() {
                 Toast.makeText(this, "Please, Enter your name", Toast.LENGTH_SHORT).show()
             }else{
                 val intent = Intent(this, QuizQuestionsActivity::class.java)
+                intent.putExtra(Constants.User_Name, et_name.text.toString())
                 startActivity(intent)
                 finish()
             }
