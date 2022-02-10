@@ -7,7 +7,7 @@
   * applicationId `"com.app.quizatshi"`
   * versionName `"1.0"`
   * jvmTarget = `'1.8'`
-## dependencies
+## Dependencies
   * implementation : `'com.google.android.material:material:1.5.0'`
   * implementation : `'androidx.core:core-ktx:1.7.0'`
   * implementation : `'androidx.appcompat:appcompat:1.4.1'`
