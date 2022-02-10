@@ -5,7 +5,6 @@
 ## Project Configuration
   * minSdk `21`
   * applicationId `"com.app.quizatshi"`
-  * versionName `"1.0"`
   * jvmTarget = `'1.8'`
 ## Dependencies
   * implementation : `'com.google.android.material:material:1.5.0'`
