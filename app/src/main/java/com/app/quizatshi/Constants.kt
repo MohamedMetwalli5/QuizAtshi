@@ -530,284 +530,284 @@ object Constants {
             "Georgia", "Germany", 3
         )
         questionsList.add(que65)
-///
+
         val que66 = Question(
             10, "What country does this flag belong to?",
-            R.drawable.ic_flag_of_kuwait,
-            "Kuwait", "Jordan",
-            "Sudan", "Palestine", 1
+            R.drawable.ic_flag_of_bahrain,
+            "Qatar", "Bahrain",
+            "Saudi Arabia", "Palestine", 2
         )
         questionsList.add(que66)
 
         val que67 = Question(
             10, "What country does this flag belong to?",
-            R.drawable.ic_flag_of_kuwait,
-            "Kuwait", "Jordan",
-            "Sudan", "Palestine", 1
+            R.drawable.ic_flag_of_panama,
+            "Panama", "Dominican",
+            "Costa Rica", "Croatia", 1
         )
         questionsList.add(que67)
 
         val que68 = Question(
             10, "What country does this flag belong to?",
-            R.drawable.ic_flag_of_kuwait,
-            "Kuwait", "Jordan",
-            "Sudan", "Palestine", 1
+            R.drawable.ic_flag_of_liberia,
+            "United States of America", "Liberia",
+            "Malaysia", "Paraguay", 2
         )
         questionsList.add(que68)
 
         val que69 = Question(
             10, "What country does this flag belong to?",
-            R.drawable.ic_flag_of_kuwait,
-            "Kuwait", "Jordan",
-            "Sudan", "Palestine", 1
+            R.drawable.ic_flag_of_the_united_states,
+            "Malaysia", "Paraguay",
+            "Liberia", "United States of America", 4
         )
         questionsList.add(que69)
 
         val que70 = Question(
             10, "What country does this flag belong to?",
-            R.drawable.ic_flag_of_kuwait,
-            "Kuwait", "Jordan",
-            "Sudan", "Palestine", 1
+            R.drawable.ic_flag_of_pakistan,
+            "Madagascar", "Pakistan",
+            "India", "Lebanon", 2
         )
         questionsList.add(que70)
 
         val que71 = Question(
             10, "What country does this flag belong to?",
-            R.drawable.ic_flag_of_kuwait,
-            "Kuwait", "Jordan",
-            "Sudan", "Palestine", 1
+            R.drawable.ic_flag_of_lebanon,
+            "Maldives", "Malta",
+            "Lebanon", "Moldova", 3
         )
         questionsList.add(que71)
 
         val que72 = Question(
             10, "What country does this flag belong to?",
-            R.drawable.ic_flag_of_kuwait,
-            "Kuwait", "Jordan",
-            "Sudan", "Palestine", 1
+            R.drawable.ic_flag_of_malta,
+            "Malta", "Poland",
+            "Monaco", "Montenegro", 1
         )
         questionsList.add(que72)
 
         val que73 = Question(
             10, "What country does this flag belong to?",
-            R.drawable.ic_flag_of_kuwait,
-            "Kuwait", "Jordan",
-            "Sudan", "Palestine", 1
+            R.drawable.ic_flag_of_myanmar,
+            "Mauritania", "Jordan",
+            "Myanmar", "Palestine", 3
         )
         questionsList.add(que73)
 
         val que74 = Question(
             10, "What country does this flag belong to?",
-            R.drawable.ic_flag_of_kuwait,
-            "Kuwait", "Jordan",
-            "Sudan", "Palestine", 1
+            R.drawable.ic_flag_of_canada,
+            "Lebanon", "Canada",
+            "Malta", "Monaco", 2
         )
         questionsList.add(que74)
 
         val que75 = Question(
             10, "What country does this flag belong to?",
-            R.drawable.ic_flag_of_kuwait,
-            "Kuwait", "Jordan",
-            "Sudan", "Palestine", 1
+            R.drawable.ic_flag_of_mongolia,
+            "Norway", "North Macedonia",
+            "Nepal", "Mongolia", 4
         )
         questionsList.add(que75)
 
         val que76 = Question(
             10, "What country does this flag belong to?",
-            R.drawable.ic_flag_of_kuwait,
-            "Kuwait", "Jordan",
-            "Sudan", "Palestine", 1
+            R.drawable.ic_flag_of_macedonia,
+            "North Macedonia", "Canada",
+            "Nepal", "Lebanon", 1
         )
         questionsList.add(que76)
 
         val que77 = Question(
             10, "What country does this flag belong to?",
-            R.drawable.ic_flag_of_kuwait,
+            R.drawable.ic_flag_of_the_united_arab_emirates,
             "Kuwait", "Jordan",
-            "Sudan", "Palestine", 1
+            "Yemen", "United Arab Emirates", 4
         )
         questionsList.add(que77)
 
         val que78 = Question(
             10, "What country does this flag belong to?",
-            R.drawable.ic_flag_of_kuwait,
-            "Kuwait", "Jordan",
-            "Sudan", "Palestine", 1
+            R.drawable.ic_flag_of_ukraine,
+            "Lithuania", "Egypt",
+            "Yemen", "Ukraine", 4
         )
         questionsList.add(que78)
 
         val que79 = Question(
             10, "What country does this flag belong to?",
-            R.drawable.ic_flag_of_kuwait,
-            "Kuwait", "Jordan",
-            "Sudan", "Palestine", 1
+            R.drawable.ic_flag_of_congo,
+            "Chad", "Congo",
+            "Cameroon", "Burkina Faso", 2
         )
         questionsList.add(que79)
 
         val que80 = Question(
             10, "What country does this flag belong to?",
-            R.drawable.ic_flag_of_kuwait,
-            "Kuwait", "Jordan",
-            "Sudan", "Palestine", 1
+            R.drawable.ic_flag_of_cambodia,
+            "South Korea", "Cambodia",
+            "South Africa", "Japan", 2
         )
         questionsList.add(que80)
 
         val que81 = Question(
             10, "What country does this flag belong to?",
-            R.drawable.ic_flag_of_kuwait,
-            "Kuwait", "Jordan",
-            "Sudan", "Palestine", 1
+            R.drawable.ic_flag_of_namibia,
+            "Uganda", "South Africa",
+            "Namibia", "Uzbekistan", 3
         )
         questionsList.add(que81)
 
         val que82 = Question(
             10, "What country does this flag belong to?",
-            R.drawable.ic_flag_of_kuwait,
-            "Kuwait", "Jordan",
-            "Sudan", "Palestine", 1
+            R.drawable.ic_flag_of_somalia,
+            "Greece", "Kuwait",
+            "Morocco", "Somalia", 4
         )
         questionsList.add(que82)
 
         val que83 = Question(
             10, "What country does this flag belong to?",
-            R.drawable.ic_flag_of_kuwait,
-            "Kuwait", "Jordan",
-            "Sudan", "Palestine", 1
+            R.drawable.ic_flag_of_madagascar,
+            "Belarus", "Madagascar",
+            "Oman", "oman", 2
         )
         questionsList.add(que83)
 
         val que84 = Question(
             10, "What country does this flag belong to?",
-            R.drawable.ic_flag_of_kuwait,
-            "Kuwait", "Jordan",
-            "Sudan", "Palestine", 1
+            R.drawable.ic_flag_of_iran,
+            "India", "Ireland",
+            "Iran", "Italy", 3
         )
         questionsList.add(que84)
 
         val que85 = Question(
             10, "What country does this flag belong to?",
-            R.drawable.ic_flag_of_kuwait,
-            "Kuwait", "Jordan",
-            "Sudan", "Palestine", 1
+            R.drawable.ic_flag_of_tunisia,
+            "Turkey", "Tunisia",
+            "Thailand", "Switzerland", 2
         )
         questionsList.add(que85)
 
         val que86 = Question(
             10, "What country does this flag belong to?",
-            R.drawable.ic_flag_of_kuwait,
-            "Kuwait", "Jordan",
-            "Sudan", "Palestine", 1
+            R.drawable.ic_flag_of_switzerland,
+            "Denmark", "United Kingdom",
+            "Sweden", "Switzerland", 4
         )
         questionsList.add(que86)
 
         val que87 = Question(
             10, "What country does this flag belong to?",
-            R.drawable.ic_flag_of_kuwait,
-            "Kuwait", "Jordan",
-            "Sudan", "Palestine", 1
+            R.drawable.ic_flag_of_sri_lanka,
+            "Suriname", "India",
+            "Sri Lanka", "Senegal", 3
         )
         questionsList.add(que87)
 
         val que88 = Question(
             10, "What country does this flag belong to?",
-            R.drawable.ic_flag_of_kuwait,
-            "Kuwait", "Jordan",
-            "Sudan", "Palestine", 1
+            R.drawable.ic_flag_of_suriname,
+            "Brazil", "Vietnam",
+            "Cameroon", "Suriname", 4
         )
         questionsList.add(que88)
 
         val que89 = Question(
             10, "What country does this flag belong to?",
-            R.drawable.ic_flag_of_kuwait,
-            "Kuwait", "Jordan",
-            "Sudan", "Palestine", 1
+            R.drawable.ic_flag_of_slovenia,
+            "Slovenia", "Russia",
+            "El Salvador", "Croatia", 1
         )
         questionsList.add(que89)
 
         val que90 = Question(
             10, "What country does this flag belong to?",
-            R.drawable.ic_flag_of_kuwait,
-            "Kuwait", "Jordan",
-            "Sudan", "Palestine", 1
+            R.drawable.ic_flag_of_armenia,
+            "Colombia", "Burkina Faso",
+            "Armenia", "Bolivia", 3
         )
         questionsList.add(que90)
 
         val que91 = Question(
             10, "What country does this flag belong to?",
-            R.drawable.ic_flag_of_kuwait,
-            "Kuwait", "Jordan",
-            "Sudan", "Palestine", 1
+            R.drawable.ic_flag_of_djibouti,
+            "Djibouti", "Benin",
+            "Belgium", "Angola", 1
         )
         questionsList.add(que91)
 
         val que92 = Question(
             10, "What country does this flag belong to?",
-            R.drawable.ic_flag_of_kuwait,
-            "Kuwait", "Jordan",
-            "Sudan", "Palestine", 1
+            R.drawable.ic_flag_of_bulgaria,
+            "Kuwait", "Russia",
+            "Italy", "Bulgaria", 4
         )
         questionsList.add(que92)
 
         val que93 = Question(
             10, "What country does this flag belong to?",
-            R.drawable.ic_flag_of_kuwait,
-            "Kuwait", "Jordan",
-            "Sudan", "Palestine", 1
+            R.drawable.ic_flag_of_burkina_faso,
+            "Burkina Faso", "Senegal",
+            "Cameroon", "Andorra", 1
         )
         questionsList.add(que93)
 
         val que94 = Question(
             10, "What country does this flag belong to?",
-            R.drawable.ic_flag_of_kuwait,
-            "Kuwait", "Jordan",
-            "Sudan", "Palestine", 1
+            R.drawable.ic_flag_of_saudi_arabia,
+            "Libya", "United Arab Emirates",
+            "Saudi Arabia", "Kuwait", 3
         )
         questionsList.add(que94)
 
         val que95 = Question(
             10, "What country does this flag belong to?",
-            R.drawable.ic_flag_of_kuwait,
-            "Kuwait", "Jordan",
-            "Sudan", "Palestine", 1
+            R.drawable.ic_flag_of_mauritius,
+            "Moldova", "Mexico",
+            "Liechtenstein", "Mauritius", 4
         )
         questionsList.add(que95)
 
         val que96 = Question(
             10, "What country does this flag belong to?",
-            R.drawable.ic_flag_of_kuwait,
-            "Kuwait", "Jordan",
-            "Sudan", "Palestine", 1
+            R.drawable.ic_flag_of_liechtenstein,
+            "Liechtenstein", "Russia",
+            "North Macedonia", "Slovakia", 1
         )
         questionsList.add(que96)
 
         val que97 = Question(
             10, "What country does this flag belong to?",
-            R.drawable.ic_flag_of_kuwait,
-            "Kuwait", "Jordan",
-            "Sudan", "Palestine", 1
+            R.drawable.ic_flag_of_the_marshall_islands,
+            "Marshall Islands", "Bahamas",
+            "Azerbaijan", "Liechtenstein", 1
         )
         questionsList.add(que97)
 
         val que98 = Question(
             10, "What country does this flag belong to?",
-            R.drawable.ic_flag_of_kuwait,
-            "Kuwait", "Jordan",
-            "Sudan", "Palestine", 1
+            R.drawable.ic_flag_of_the_bahamas,
+            "Andorra", "Nicaragua",
+            "Bahamas", "Nepal", 3
         )
         questionsList.add(que98)
 
         val que99 = Question(
             10, "What country does this flag belong to?",
-            R.drawable.ic_flag_of_kuwait,
-            "Kuwait", "Jordan",
-            "Sudan", "Palestine", 1
+            R.drawable.ic_flag_of_mozambique,
+            "Kuwait", "Mozambique",
+            "Namibia", "Mongolia", 2
         )
         questionsList.add(que99)
 
         val que100 = Question(
             10, "What country does this flag belong to?",
-            R.drawable.ic_flag_of_kuwait,
-            "Kuwait", "Jordan",
-            "Sudan", "Palestine", 1
+            R.drawable.ic_flag_of_estonia,
+            "Equatorial Guinea", "Estonia",
+            "Finland", "Iceland", 2
         )
         questionsList.add(que100)
 
