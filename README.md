@@ -5,10 +5,10 @@
 
 ## Screeshots
  * Home Page
-  * ![image](https://user-images.githubusercontent.com/58489322/153713842-2ea36ccc-484e-41f0-a42e-b57742b0b6b1.png)
+  * ![image](https://user-images.githubusercontent.com/58489322/153713842-2ea36ccc-484e-41f0-a42e-b57742b0b6b1.png)\
 <!--  <br/> -->
  * Right Answer
-  * ![image](https://user-images.githubusercontent.com/58489322/153713865-86db4684-1af6-4794-9e22-49da4f6e0922.png)
+  * ![image](https://user-images.githubusercontent.com/58489322/153713865-86db4684-1af6-4794-9e22-49da4f6e0922.png)\
 <!--  <br/> -->
  * Wrong Answer
   * ![image](https://user-images.githubusercontent.com/58489322/153713884-8b1422d7-d757-4a33-b8ab-a42a3d4722c9.png)
