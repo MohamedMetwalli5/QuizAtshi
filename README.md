@@ -3,21 +3,26 @@
 
 # QuizAtshi (Version 1.0)
 
+## How To Use
+ 1. Enter your name
+ 2. The app generates 10 random questions from more than 100 already made questions
+ 3. The app shows you the grade at the end
+
 ## Screeshots
  * Home Page
-  * ![image](https://user-images.githubusercontent.com/58489322/153713842-2ea36ccc-484e-41f0-a42e-b57742b0b6b1.png)\
+  * ![image](https://user-images.githubusercontent.com/58489322/153713842-2ea36ccc-484e-41f0-a42e-b57742b0b6b1.png)
  * Right Answer
-  * ![image](https://user-images.githubusercontent.com/58489322/153713865-86db4684-1af6-4794-9e22-49da4f6e0922.png)\
+  * ![image](https://user-images.githubusercontent.com/58489322/153713865-86db4684-1af6-4794-9e22-49da4f6e0922.png)
  * Wrong Answer
-  * ![image](https://user-images.githubusercontent.com/58489322/153713884-8b1422d7-d757-4a33-b8ab-a42a3d4722c9.png)\
+  * ![image](https://user-images.githubusercontent.com/58489322/153713884-8b1422d7-d757-4a33-b8ab-a42a3d4722c9.png)
  * The Grade
-  * ![image](https://user-images.githubusercontent.com/58489322/153713917-b033a6db-fb31-4801-a8ef-370dddd0c1cc.png)\
+  * ![image](https://user-images.githubusercontent.com/58489322/153713917-b033a6db-fb31-4801-a8ef-370dddd0c1cc.png)
  
 ## Application Logo
-![QuizAtshi](https://user-images.githubusercontent.com/58489322/153112394-8c040534-a394-4b48-be35-8ae45a5f59f1.png)\
+![QuizAtshi](https://user-images.githubusercontent.com/58489322/153112394-8c040534-a394-4b48-be35-8ae45a5f59f1.png)
 
 ## Project Configuration
-  * minSdk `21`![Uploading image.png…]()
+  * minSdk `21`
   * applicationId `"com.app.quizatshi"`
   * jvmTarget = `'1.8'`
 ## Dependencies
