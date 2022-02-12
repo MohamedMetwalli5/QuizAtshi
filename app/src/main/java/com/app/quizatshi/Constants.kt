@@ -2,9 +2,11 @@ package com.app.quizatshi
 
 object Constants {
 
+//    const val dark_mode: String = "dark_mode"
     const val User_Name: String = "user_name"
     const val Total_Questions: String = "total_questions"
     const val Correct_Answers: String = "correct_answers"
+
 
     fun getQuestions(): ArrayList<Question> {
         val questionsList = ArrayList<Question>()
