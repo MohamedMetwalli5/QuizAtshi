@@ -4,8 +4,8 @@
 # QuizAtshi (Version 1.0)
 
 ## Screeshots
- *Home Page
-  *![image](https://user-images.githubusercontent.com/58489322/153713842-2ea36ccc-484e-41f0-a42e-b57742b0b6b1.png)
+ * Home Page
+  * ![image](https://user-images.githubusercontent.com/58489322/153713842-2ea36ccc-484e-41f0-a42e-b57742b0b6b1.png)
  *Right Answer
   * ![image](https://user-images.githubusercontent.com/58489322/153713865-86db4684-1af6-4794-9e22-49da4f6e0922.png)
  *Wrong Answer
