@@ -470,7 +470,7 @@ object Constants {
         val que58 = Question(
             10, "What country does this flag belong to?",
             R.drawable.ic_flag_of_algeria,
-            "Algeria", "Jordan",
+            "Burundi", "Jordan",
             "Algeria", "Bhutan", 3
         )
         questionsList.add(que58)
@@ -671,7 +671,7 @@ object Constants {
             10, "What country does this flag belong to?",
             R.drawable.ic_flag_of_madagascar,
             "Belarus", "Madagascar",
-            "Oman", "oman", 2
+            "Oman", "Iraq", 2
         )
         questionsList.add(que83)
 
@@ -811,6 +811,14 @@ object Constants {
         )
         questionsList.add(que100)
 
+        val que101 = Question(
+            10, "What country does this flag belong to?",
+            R.drawable.ic_flag_of_iraq,
+            "Syria", "Mali",
+            "Iraq", "Mozambique", 3
+        )
+        questionsList.add(que101)
+
 
         val returnedQuestionsList = ArrayList<Question>()
         var h = HashSet<Int>()
@@ -818,7 +826,7 @@ object Constants {
         returnedQuestionsList.add(questionsList[14])
 
         while(returnedQuestionsList.size < 10){
-            val index = (0..99).random()
+            val index = (0..100).random()
             if(!h.contains(index)){
                 h.add(index)
                 returnedQuestionsList.add(questionsList[index])
