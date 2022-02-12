@@ -3,6 +3,11 @@
 
 # QuizAtshi (Version 1.0)
 
+## How To Use
+ 1. Enter your name
+ 2. The app generates 10 randome questions from more than 100 already made questions
+ 3. The app shows you the grade at the end
+
 ## Screeshots
  * Home Page
   * ![image](https://user-images.githubusercontent.com/58489322/153713842-2ea36ccc-484e-41f0-a42e-b57742b0b6b1.png)
