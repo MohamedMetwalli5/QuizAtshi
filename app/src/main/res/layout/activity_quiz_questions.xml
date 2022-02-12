@@ -12,7 +12,9 @@
         android:layout_height="wrap_content"
         android:gravity="center"
         android:orientation="vertical"
-        android:padding="16dp">
+        android:padding="16dp"
+        android:background="#EBEBEB"
+        >
 
         <TextView
             android:id="@+id/tv_question"
