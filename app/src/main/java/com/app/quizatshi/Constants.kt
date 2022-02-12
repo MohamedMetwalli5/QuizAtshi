@@ -823,8 +823,6 @@ object Constants {
         val returnedQuestionsList = ArrayList<Question>()
         var h = HashSet<Int>()
 
-        returnedQuestionsList.add(questionsList[14])
-
         while(returnedQuestionsList.size < 10){
             val index = (0..100).random()
             if(!h.contains(index)){
