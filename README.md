@@ -9,7 +9,6 @@
  3. The app shows you the grade at the end
 
 ## Screeshots
- **r
  * Home Page
   * ![image](https://user-images.githubusercontent.com/58489322/153713842-2ea36ccc-484e-41f0-a42e-b57742b0b6b1.png)
  * Right Answer
