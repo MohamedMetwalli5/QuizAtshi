@@ -19,6 +19,9 @@
   * ![image](https://user-images.githubusercontent.com/58489322/153713884-8b1422d7-d757-4a33-b8ab-a42a3d4722c9.png)
  * The Grade
   * ![image](https://user-images.githubusercontent.com/58489322/153713917-b033a6db-fb31-4801-a8ef-370dddd0c1cc.png)
+ * The Application Icon
+  * ![TheAppIcon](https://user-images.githubusercontent.com/58489322/153779151-dd2c77c6-1547-46cb-b645-88f383825f9c.png)
+
 <!--  * Dark Mode -->
 <!--   *  -->
  
