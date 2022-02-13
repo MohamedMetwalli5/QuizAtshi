@@ -11,7 +11,7 @@
 ## Screeshots
  * Home Page
   * ![image](https://user-images.githubusercontent.com/58489322/153751258-a13eda7c-1808-45e8-b372-64b5976f6951.png)
- * Right Answer
+ **Right Answer
   * ![image](https://user-images.githubusercontent.com/58489322/153713865-86db4684-1af6-4794-9e22-49da4f6e0922.png)
  * Wrong Answer
   * ![image](https://user-images.githubusercontent.com/58489322/153713884-8b1422d7-d757-4a33-b8ab-a42a3d4722c9.png)
