@@ -31,11 +31,13 @@ class QuizQuestionsActivity : AppCompatActivity(), View.OnClickListener {
         mDarkMode = intent.getStringExtra(Constants.dark_mode)
 
         val linear_layout = findViewById<View>(R.id.linear_layout) as LinearLayout
+        val question_text = findViewById<View>(R.id.tv_question) as TextView
+        val tv_progress = findViewById<View>(R.id.tv_progress) as TextView
 
         if(mDarkMode == "1"){
-            // linear_layout.background = R.color.dark_mode
-        }else{
-            // linear_layout.background = "#EBEBEB"
+            linear_layout.setBackgroundColor(ContextCompat.getColor(this, R.color.dark_mode))
+            question_text.setTextColor(Color.parseColor("#FFFFFF"))
+            tv_progress.setTextColor(Color.parseColor("#FFFFFF"))
         }
 
         mQuestionsList = Constants.getQuestions()
