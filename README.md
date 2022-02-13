@@ -5,8 +5,9 @@
 
 ## How To Use
  1. Enter your name
- 2. The app generates 10 random questions from more than 100 already made questions
- 3. The app shows you the grade at the end
+ 2. You can activate the dark mode optionally
+ 3. The app generates 10 random questions from more than 100 already made questions
+ 4. The app shows you the grade at the end
 
 ## Screeshots
  * Home Page
