@@ -18,6 +18,7 @@ class QuizQuestionsActivity : AppCompatActivity(), View.OnClickListener {
     private var mCorrectAnswers: Int = 0
 
     private var mUserName: String? = null
+    private var mDarkMode: String? = null
 
     override fun onCreate(savedInstanceState: Bundle?) {
 
@@ -27,6 +28,15 @@ class QuizQuestionsActivity : AppCompatActivity(), View.OnClickListener {
         setContentView(R.layout.activity_quiz_questions)
 
         mUserName = intent.getStringExtra(Constants.User_Name)
+        mDarkMode = intent.getStringExtra(Constants.dark_mode)
+
+        val linear_layout = findViewById<View>(R.id.linear_layout) as LinearLayout
+
+        if(mDarkMode == "1"){
+            // linear_layout.background = R.color.dark_mode
+        }else{
+            // linear_layout.background = "#EBEBEB"
+        }
 
         mQuestionsList = Constants.getQuestions()
 

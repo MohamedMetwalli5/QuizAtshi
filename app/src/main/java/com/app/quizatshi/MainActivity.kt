@@ -30,11 +30,11 @@ class MainActivity : AppCompatActivity() {
             }else{
                 val intent = Intent(this, QuizQuestionsActivity::class.java)
                 intent.putExtra(Constants.User_Name, et_name.text.toString())
-//                if(dark_mode_on%2 == 0){
-//                    intent.putExtra(Constants.dark_mode, 0)
-//                }else{
-//                    intent.putExtra(Constants.dark_mode, 1)
-//                }
+                if(dark_mode_on%2 == 0){
+                    intent.putExtra(Constants.dark_mode, "0")
+                }else{
+                    intent.putExtra(Constants.dark_mode, "1")
+                }
                 startActivity(intent)
                 finish()
             }
