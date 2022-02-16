@@ -19,6 +19,7 @@ class QuizQuestionsActivity : AppCompatActivity(), View.OnClickListener {
 
     private var mUserName: String? = null
     private var mDarkMode: String? = null
+    private var mLevel: String? = null
 
     override fun onCreate(savedInstanceState: Bundle?) {
 
@@ -29,10 +30,21 @@ class QuizQuestionsActivity : AppCompatActivity(), View.OnClickListener {
 
         mUserName = intent.getStringExtra(Constants.User_Name)
         mDarkMode = intent.getStringExtra(Constants.dark_mode)
+        mLevel = intent.getStringExtra(Constants.Level)
 
         val linear_layout = findViewById<View>(R.id.linear_layout) as LinearLayout
         val question_text = findViewById<View>(R.id.tv_question) as TextView
         val tv_progress = findViewById<View>(R.id.tv_progress) as TextView
+
+//        To Do: Change the progress bar text according to the level
+//        if(mLevel.equals("Novice")){
+//            tv_progress.text = "0/10"
+//        }else if(mLevel.equals("Proficient")){
+//            tv_progress.text = "0/20"
+//        }else{
+//            tv_progress.text = "0/30"
+//        }
+
 
         if(mDarkMode == "1"){
             linear_layout.setBackgroundColor(ContextCompat.getColor(this, R.color.dark_mode))
@@ -40,7 +52,7 @@ class QuizQuestionsActivity : AppCompatActivity(), View.OnClickListener {
             tv_progress.setTextColor(Color.parseColor("#FFFFFF"))
         }
 
-        mQuestionsList = Constants.getQuestions()
+        mQuestionsList = Constants.getQuestions(mLevel)
 
 
         setQuestion()
@@ -90,6 +102,7 @@ class QuizQuestionsActivity : AppCompatActivity(), View.OnClickListener {
                         }else ->{
                             val intent = Intent(this, ResultActivity::class.java)
                             intent.putExtra(Constants.User_Name, mUserName)
+//                            intent.putExtra(Constants.Level, mLevel)///////
                             intent.putExtra(Constants.Correct_Answers, mCorrectAnswers)
                             intent.putExtra(Constants.Total_Questions, mQuestionsList!!.size)
                             startActivity(intent)

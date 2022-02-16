@@ -2,13 +2,14 @@ package com.app.quizatshi
 
 object Constants {
 
-    const val dark_mode: String = "dark_mode"
     const val User_Name: String = "user_name"
+    const val dark_mode: String = "dark_mode"
+    const val Level: String = ""
     const val Total_Questions: String = "total_questions"
     const val Correct_Answers: String = "correct_answers"
 
 
-    fun getQuestions(): ArrayList<Question> {
+    fun getQuestions(TheLevel :String?): ArrayList<Question> {
         val questionsList = ArrayList<Question>()
 
         val que1 = Question(
@@ -824,8 +825,18 @@ object Constants {
 
         val returnedQuestionsList = ArrayList<Question>()
         var h = HashSet<Int>()
-
-        while(returnedQuestionsList.size < 10){
+        var NumberOfQuestions = 10
+        if(TheLevel.equals("Novice")){
+            NumberOfQuestions = 10
+            println("NumberOfQuestions = 10")
+        }else if(TheLevel.equals("Proficient")){
+            NumberOfQuestions = 20
+            println("NumberOfQuestions = 20")
+        }else{
+            NumberOfQuestions = 30
+            println("NumberOfQuestions = 30")
+        }
+        while(returnedQuestionsList.size < NumberOfQuestions){
             val index = (0..100).random()
             if(!h.contains(index)){
                 h.add(index)
