@@ -23,8 +23,6 @@
  * The Application Icon
   * ![TheAppIcon](https://user-images.githubusercontent.com/58489322/153779151-dd2c77c6-1547-46cb-b645-88f383825f9c.png)
 
-<!--  * Dark Mode -->
-<!--   *  -->
  
 ## Application Logo
 ![QuizAtshi](https://user-images.githubusercontent.com/58489322/153112394-8c040534-a394-4b48-be35-8ae45a5f59f1.png)
