@@ -12,7 +12,7 @@
 
 ## Screeshots
  * Home Page
-  * ![image](https://user-images.githubusercontent.com/58489322/154178924-2a9f80e6-af0b-4f0f-a93a-48bf7945d51f.png)
+  * ![image](https://user-images.githubusercontent.com/58489322/154819991-6b3889a3-d7b7-4915-9716-8516e078c5bb.png)
   * ![image](https://user-images.githubusercontent.com/58489322/153753586-03abfeea-e0de-45db-95a0-71908d69c57b.png)
  * Right Answer
   * ![image](https://user-images.githubusercontent.com/58489322/153713865-86db4684-1af6-4794-9e22-49da4f6e0922.png)
