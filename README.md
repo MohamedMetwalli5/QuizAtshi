@@ -6,8 +6,8 @@
 ## How To Use
  1. Enter your name
  2. You can activate the dark mode optionally
- 3. You must choose the expertise level
- 4. The app generates random questions from more than 100 already made questions according to your level
+ 3. You must choose your expertise level
+ 4. Choose the number of questions (it will be set to be 50 questions if you didn't choose)
  5. The app shows you the grade at the end
 
 ## Screeshots
