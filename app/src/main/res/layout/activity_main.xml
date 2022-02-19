@@ -145,6 +145,30 @@
 
 <!--//////////////////////////////////////////////////////////////////////////////////////-->
 
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Number Of Questions"
+                    android:textSize="15sp"
+                    android:padding="2sp"
+                    android:textColor="@color/black"
+                    />
+
+                    <SeekBar
+                        android:id="@+id/SeekBar"
+                        style="@style/Widget.AppCompat.SeekBar.Discrete"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:max="10"
+                        android:progress="5" />
+
+            </LinearLayout>
+
             <Button
                 android:id="@+id/btn_start"
                 android:layout_width="match_parent"

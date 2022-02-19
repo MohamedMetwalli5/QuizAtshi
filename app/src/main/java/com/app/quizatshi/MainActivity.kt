@@ -4,10 +4,8 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
-import android.widget.EditText
-import android.widget.RadioButton
-import android.widget.RadioGroup
-import android.widget.Toast
+import android.widget.*
+import android.widget.SeekBar.OnSeekBarChangeListener
 import java.util.logging.Level
 
 class MainActivity : AppCompatActivity() {
@@ -28,6 +26,26 @@ class MainActivity : AppCompatActivity() {
             dark_mode_on++;
         }
 
+        val SeekBar = findViewById<View>(R.id.SeekBar) as SeekBar
+        SeekBar.setOnClickListener{
+            SeekBar.progress++
+        }
+
+        SeekBar?.setOnSeekBarChangeListener(object : OnSeekBarChangeListener{
+            override fun onStartTrackingTouch(p0: SeekBar?) {
+                Toast.makeText(applicationContext, "Drag and pick the number of questions", Toast.LENGTH_SHORT).show()
+            }
+
+            override fun onProgressChanged(p0: SeekBar?, p1: Int, p2: Boolean) {
+                Toast.makeText(applicationContext, "Number of questions: ${SeekBar?.progress*10}", Toast.LENGTH_SHORT).show()
+            }
+
+            override fun onStopTrackingTouch(p0: SeekBar?) {
+                Toast.makeText(applicationContext, "Selected: ${SeekBar?.progress*10}", Toast.LENGTH_SHORT).show()
+            }
+        })
+
+
         btn_start.setOnClickListener{
             if (et_name.text.toString().isEmpty()){
                 Toast.makeText(this, "Please, Enter your name", Toast.LENGTH_SHORT).show()
@@ -37,6 +55,7 @@ class MainActivity : AppCompatActivity() {
                     val intent = Intent(this, QuizQuestionsActivity::class.java)
                     intent.putExtra(Constants.User_Name, et_name.text.toString())
                     intent.putExtra(Constants.Level, Level)
+                    intent.putExtra(Constants.NumberOfQuestions, (SeekBar?.progress*10).toString())
                     if(dark_mode_on%2 == 0){
                         intent.putExtra(Constants.dark_mode, "0")
                     }else{

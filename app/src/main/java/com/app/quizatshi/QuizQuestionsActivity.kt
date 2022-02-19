@@ -20,6 +20,7 @@ class QuizQuestionsActivity : AppCompatActivity(), View.OnClickListener {
     private var mUserName: String? = null
     private var mDarkMode: String? = null
     private var mLevel: String? = null
+    private var mNumberOfQuestions: String? = null
 
     override fun onCreate(savedInstanceState: Bundle?) {
 
@@ -31,6 +32,7 @@ class QuizQuestionsActivity : AppCompatActivity(), View.OnClickListener {
         mUserName = intent.getStringExtra(Constants.User_Name)
         mDarkMode = intent.getStringExtra(Constants.dark_mode)
         mLevel = intent.getStringExtra(Constants.Level)
+        mNumberOfQuestions = intent.getStringExtra(Constants.NumberOfQuestions)
 
         val linear_layout = findViewById<View>(R.id.linear_layout) as LinearLayout
         val question_text = findViewById<View>(R.id.tv_question) as TextView
@@ -38,13 +40,12 @@ class QuizQuestionsActivity : AppCompatActivity(), View.OnClickListener {
 
 //        To Do: Change the progress bar text according to the level
 //        if(mLevel.equals("Novice")){
-//            tv_progress.text = "0/10"
+//            tv_progress.setText("0/10")
 //        }else if(mLevel.equals("Proficient")){
-//            tv_progress.text = "0/20"
+//            tv_progress.setText("0/20")
 //        }else{
-//            tv_progress.text = "0/30"
+//            tv_progress.setText("0/30")
 //        }
-
 
         if(mDarkMode == "1"){
             linear_layout.setBackgroundColor(ContextCompat.getColor(this, R.color.dark_mode))
@@ -52,7 +53,7 @@ class QuizQuestionsActivity : AppCompatActivity(), View.OnClickListener {
             tv_progress.setTextColor(Color.parseColor("#FFFFFF"))
         }
 
-        mQuestionsList = Constants.getQuestions(mLevel)
+        mQuestionsList = Constants.getQuestions(mLevel, mNumberOfQuestions)
 
 
         setQuestion()
