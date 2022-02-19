@@ -6,13 +6,13 @@
 ## How To Use
  1. Enter your name
  2. You can activate the dark mode optionally
- 3. You must choose the expertise level
- 4. The app generates random questions from more than 100 already made questions according to your level
+ 3. You must choose your expertise level
+ 4. Choose the number of questions (it will be set to be 50 questions if you didn't choose)
  5. The app shows you the grade at the end
 
 ## Screeshots
  * Home Page
-  * ![image](https://user-images.githubusercontent.com/58489322/154178924-2a9f80e6-af0b-4f0f-a93a-48bf7945d51f.png)
+  * ![image](https://user-images.githubusercontent.com/58489322/154819991-6b3889a3-d7b7-4915-9716-8516e078c5bb.png)
   * ![image](https://user-images.githubusercontent.com/58489322/153753586-03abfeea-e0de-45db-95a0-71908d69c57b.png)
  * Right Answer
   * ![image](https://user-images.githubusercontent.com/58489322/153713865-86db4684-1af6-4794-9e22-49da4f6e0922.png)
@@ -23,8 +23,6 @@
  * The Application Icon
   * ![TheAppIcon](https://user-images.githubusercontent.com/58489322/153779151-dd2c77c6-1547-46cb-b645-88f383825f9c.png)
 
-<!--  * Dark Mode -->
-<!--   *  -->
  
 ## Application Logo
 ![QuizAtshi](https://user-images.githubusercontent.com/58489322/153112394-8c040534-a394-4b48-be35-8ae45a5f59f1.png)
