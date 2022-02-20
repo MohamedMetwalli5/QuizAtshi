@@ -28,7 +28,7 @@
 
 ## Video
 <br>
-![QuizAtshi](https://img.youtube.com/vi/MMDSkvqAMGs/0.jpg)](https://www.youtube.com/watch?v=MMDSkvqAMGs)
+[![QuizAtshi](https://img.youtube.com/vi/MMDSkvqAMGs/0.jpg)](https://www.youtube.com/watch?v=MMDSkvqAMGs)
 <br>
 
 ## Project Configuration
