@@ -5,6 +5,7 @@ import android.graphics.Color
 import android.graphics.Typeface
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.os.CountDownTimer
 import android.util.Log
 import android.view.View
 import android.widget.*
@@ -22,30 +23,42 @@ class QuizQuestionsActivity : AppCompatActivity(), View.OnClickListener {
     private var mLevel: String? = null
     private var mNumberOfQuestions: String? = null
 
+    /*
+    private var TotalTime: Long = 10000
+    val Timer = object : CountDownTimer(TotalTime, 1000) {
+        override fun onTick(millisUntilFinished: Long) {
+//            println(Integer.parseInt(intent.getStringExtra(Constants.Level)).toLong())
+            if(millisUntilFinished/1000 == 0.toLong()){
+                val intent = Intent(applicationContext, ResultActivity::class.java)
+                intent.putExtra(Constants.User_Name, mUserName)
+                intent.putExtra(Constants.Correct_Answers, mCorrectAnswers)
+                intent.putExtra(Constants.Total_Questions, mQuestionsList!!.size)
+                startActivity(intent)
+                finish()
+            }
+        }
+
+        override fun onFinish() {
+            Toast.makeText(applicationContext, "Done!", Toast.LENGTH_SHORT).show()
+        }
+    }
+    */
+
     override fun onCreate(savedInstanceState: Bundle?) {
 
         window.decorView.systemUiVisibility = View.SYSTEM_UI_FLAG_FULLSCREEN
-        
+
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_quiz_questions)
 
         mUserName = intent.getStringExtra(Constants.User_Name)
         mDarkMode = intent.getStringExtra(Constants.dark_mode)
-        mLevel = intent.getStringExtra(Constants.Level)
+//        mLevel = intent.getStringExtra(Constants.Level)
         mNumberOfQuestions = intent.getStringExtra(Constants.NumberOfQuestions)
 
         val linear_layout = findViewById<View>(R.id.linear_layout) as LinearLayout
         val question_text = findViewById<View>(R.id.tv_question) as TextView
         val tv_progress = findViewById<View>(R.id.tv_progress) as TextView
-
-//        To Do: Change the progress bar text according to the level
-//        if(mLevel.equals("Novice")){
-//            tv_progress.setText("0/10")
-//        }else if(mLevel.equals("Proficient")){
-//            tv_progress.setText("0/20")
-//        }else{
-//            tv_progress.setText("0/30")
-//        }
 
         if(mDarkMode == "1"){
             linear_layout.setBackgroundColor(ContextCompat.getColor(this, R.color.dark_mode))
@@ -55,9 +68,21 @@ class QuizQuestionsActivity : AppCompatActivity(), View.OnClickListener {
 
         mQuestionsList = Constants.getQuestions(mLevel, mNumberOfQuestions)
 
-
         setQuestion()
+/*
+        if(mLevel.equals("120000")){
+            this.TotalTime = 120000
+            println("TotalTime = 120s")
+        }else if(mLevel.equals("80000")){
+            this.TotalTime = 80000
+            println("TotalTime = 80s")
+        }else{
+            this.TotalTime = 30000
+            println("---------->> " + mLevel)
+        }
 
+        Timer.start() // Starting the Counting down
+*/
         val tv_option_one = findViewById<View>(R.id.tv_option_one) as TextView
         tv_option_one.setOnClickListener(this)
 
@@ -126,6 +151,7 @@ class QuizQuestionsActivity : AppCompatActivity(), View.OnClickListener {
                         btn_submit.text = "GO TO NEXT QUESTION"
                     }
                     mSelectedOptionPosition = 0
+                    // Timer.cancel()
                 }
             }
         }

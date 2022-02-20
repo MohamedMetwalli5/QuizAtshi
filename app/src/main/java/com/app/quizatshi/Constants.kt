@@ -4,7 +4,7 @@ object Constants {
 
     const val User_Name: String = "user_name"
     const val dark_mode: String = "dark_mode"
-    const val Level: String = ""
+//    const val Level: String = ""
     const val NumberOfQuestions: String = ""
     const val Total_Questions: String = "total_questions"
     const val Correct_Answers: String = "correct_answers"
@@ -826,16 +826,6 @@ object Constants {
 
         val returnedQuestionsList = ArrayList<Question>()
         var h = HashSet<Int>()
-//        if(TheLevel.equals("Novice")){
-//            NumberOfQuestions = 10
-//            println("NumberOfQuestions = 10")
-//        }else if(TheLevel.equals("Proficient")){
-//            NumberOfQuestions = 20
-//            println("NumberOfQuestions = 20")
-//        }else{
-//            NumberOfQuestions = 30
-//            println("NumberOfQuestions = 30")
-//        }
         while(returnedQuestionsList.size < Integer.parseInt(TheNumberOfQuestions)){
             val index = (0..100).random()
             if(!h.contains(index)){

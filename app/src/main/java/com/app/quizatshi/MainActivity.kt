@@ -50,11 +50,11 @@ class MainActivity : AppCompatActivity() {
             if (et_name.text.toString().isEmpty()){
                 Toast.makeText(this, "Please, Enter your name", Toast.LENGTH_SHORT).show()
             }else{
-                var Level = ChechLevel()
-                if(Level.length > 0){
+//                var Level = ChechLevel()
+//                if(Level.length > 0){
                     val intent = Intent(this, QuizQuestionsActivity::class.java)
                     intent.putExtra(Constants.User_Name, et_name.text.toString())
-                    intent.putExtra(Constants.Level, Level)
+//                    intent.putExtra(Constants.Level, Level)
                     intent.putExtra(Constants.NumberOfQuestions, (SeekBar?.progress*10).toString())
                     if(dark_mode_on%2 == 0){
                         intent.putExtra(Constants.dark_mode, "0")
@@ -63,13 +63,13 @@ class MainActivity : AppCompatActivity() {
                     }
                     startActivity(intent)
                     finish()
-                }
+//                }
             }
         }
 
 
     }
-
+/*
     fun ChechLevel(): String{
         // The Levels Radio Buttons
         val NoviceRadioButton = findViewById<View>(R.id.NoviceRadioButton) as RadioButton
@@ -77,14 +77,15 @@ class MainActivity : AppCompatActivity() {
         val ExpertRadioButton = findViewById<View>(R.id.ExpertRadioButton) as RadioButton
 
         if(NoviceRadioButton.isChecked()){
-            return "Novice"
+            return "120000"
         }else if(ProficientRadioButton.isChecked()){
-            return "Proficient"
+            return "80000"
         }else if(ExpertRadioButton.isChecked()){
-            return "Expert"
+            return "30000"
         }else{
             Toast.makeText(this, "Please, Choose the level", Toast.LENGTH_SHORT).show()
             return ""
         }
     }
+    */
 }
