@@ -8,7 +8,8 @@
  2. You can activate the dark mode optionally
  3. You must choose your expertise level
  4. Choose the number of questions (it will be set to be 50 questions if you didn't choose)
- 5. The app shows you the grade at the end
+ 5. The app shows you the correct answer, and a sound effect if you have already answered correctly.
+ 6. The app shows you the grade at the end
 
 ## Screeshots
  * Home Page
